@@ -6,3 +6,6 @@ functions:
   automater:
     fprocess: python handler.py
     image: jockdarock/automaterfaas:latest
+    environment:
+      read_timeout: "60"
+      write_timeout: "60"
